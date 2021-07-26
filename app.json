@@ -1,0 +1,47 @@
+
+{
+  "name": "TG File Sharing Bot",
+  "description": "file sharing bot store posts and it can access by special links",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/AngkasaBoy/FileLink",
+  "logo": "https://telegra.ph/file/42339eceb3b501267cc63.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Bot Token Lu, Dapatkan dari @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your owner ID",
+      "value": "Isi ID Lu Disini"
+    },
+    "APP_ID":{
+      "description": "your app id, take it from my.telegram.org",
+      "value": ""
+    },
+    "API_HASH":{
+      "description": "your api hash, take it from my.telegram.org",
+      "value": ""
+    },
+    "CHANNEL_ID":{
+      "description": "Buat Sebuah Channel Baru (database channel) Jangan Channel Utama, Masukin Bot Lu Ke Channel Dan Kasih Akses Admin",
+      "value": "Isi ID Channel Baru"
+    },
+    "FORCE_SUB_CHANNEL":{
+      "description": "Isi Dengan ID Grup/Channel Utama Agar Pengguna Bot Wajib Join",
+      "value": "0"
+    },
+    "START_MESSAGE": {
+      "description": "Optional: Pesan Memulai Bot, Dapat Di Atur Sesuka Lu",
+      "value": "Hello {first}\n\nGua Adalah Bot Yang Dapat Menjadikan Media Menjadi Link"
+    },
+    "ADMINS": {
+      "description": "Isi ID Pengguna Yang Dapat Menggunakan Fitur CMD Khusus Admin",
+      "value": "",
+      "required": false
+    }
+  }
+}
